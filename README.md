@@ -4,12 +4,12 @@
 
 ## Description
 
-With [Exit Popup]([https://github.com/microsoft/monaco-editor](https://github.com/empiricompany/openmage_exitpopup)) extension you can configure an overlay popup to show a CMS Static content.
-Inside stitic block you can insert a widget with the newsletter subscriber form for example:
+With [Exit Popup]([https://github.com/microsoft/monaco-editor](https://github.com/empiricompany/openmage_exitpopup)) you can configure an overlay popup to display CMS static content. 
+Inside the static block, you can insert a widget with the newsletter subscription form, for example:
 ```
 {{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}
 ```
-On successfull submit form cookie lifetime is equal to session and popup don't show again.
+On successful form submission, the cookie lifetime is equal to the session, and the popup will not show again.
 
 ## Configuration
 **System -> MM Extensions -> Exit Popup**
