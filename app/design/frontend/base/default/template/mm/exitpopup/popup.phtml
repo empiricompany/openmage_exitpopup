@@ -1,0 +1,24 @@
+<?php
+/** @var MM_ExitPopup_Block_Popup $this */
+$_content = $this->getPopupContent();
+/** @var MM_ExitPopup_Helper_Data  $_helper */
+$_helper = Mage::helper('mm_exitpopup');
+?>
+
+<div class="exit-popup__overlay">
+    <div class="exit-popup__wrap">
+        <div class="exit-popup__content">
+            <?php echo $_content; ?>
+        </div>
+        <span class="exit-popup__close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </span>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const exitPopup = new ExitPopup(<?php echo $_helper->getCookieLifetime(); ?>, <?php echo $_helper->getDelay(); ?>);
+    exitPopup.init('<?php echo $_helper->getMode(); ?>');
+</script>

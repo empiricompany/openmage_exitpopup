@@ -1,0 +1,17 @@
+{
+    "name": "empiricompany/openmage_exitpopup",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "OpenMage / Magento 1.9 module extension exit popup",
+    "keywords": [
+      "magento",
+      "magento1",
+      "openmage"
+    ],
+    "homepage": "https://github.com/empiricompany/openmage_exitpopup",
+    "require": {
+      "php": "^7.4||^8.0",
+      "magento-hackathon/magento-composer-installer": "*"
+    }
+  }
+  

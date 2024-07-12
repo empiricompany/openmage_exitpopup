@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem" ifconfig="mm_exitpopup/general/enabled"><type>skin_js</type><name>js/mm/exitpopup/exitpopup.js</name></action>
+            <action method="addItem" ifconfig="mm_exitpopup/general/enabled"><type>skin_css</type><name>css/mm/exitpopup/style.css</name></action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="mm_exitpopup/popup" name="exit_popup" ifconfig="mm_exitpopup/general/enabled">
+                <action method="setTemplate"><template>mm/exitpopup/popup.phtml</template></action>
+            </block>
+        </reference>
+    </default>
+</layout>

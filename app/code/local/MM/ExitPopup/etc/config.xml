@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MM_ExitPopup>
+            <version>1.0.0</version>
+        </MM_ExitPopup>
+    </modules>
+    <global>
+        <blocks>
+            <mm_exitpopup>
+                <class>MM_ExitPopup_Block</class>
+            </mm_exitpopup>
+        </blocks>
+        <helpers>
+            <mm_exitpopup>
+                <class>MM_ExitPopup_Helper</class>
+            </mm_exitpopup>
+        </helpers>
+        <models>
+            <mm_exitpopup>
+                <class>MM_ExitPopup_Model</class>
+            </mm_exitpopup>
+        </models>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <mm_exitpopup>
+                    <file>mm/exitpopup.xml</file>
+                </mm_exitpopup>
+            </updates>
+        </layout>
+    </frontend>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <mm_exitpopup>
+                                            <title>Exit Popup Config</title>
+                                        </mm_exitpopup>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+    <default>
+        <mm_exitpopup>
+            <general>
+                <enabled>1</enabled>
+                <cookie_lifetime>180</cookie_lifetime>
+                <open_mode>exitintentdelay</open_mode>
+                <open_delay>5</open_delay>
+            </general>
+        </mm_exitpopup>
+    </default>
+</config>
