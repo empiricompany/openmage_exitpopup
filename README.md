@@ -16,9 +16,9 @@ On successful form submission, the cookie lifetime is equal to the session, and 
 
 - Enable/disabled the module  [enabled]
 - CMS Static Block: select a cms static block to show in
-- Cookie Lifetime: The lifetime of the cookie in seconds. If content contains a form, on submit cookie lifetime is equal to session and popup don't show again
-- Open Mode [disabled]
+- Cookie Lifetime [180]: The lifetime of the cookie in seconds. If content contains a form, on submit cookie lifetime is equal to session and popup don't show again
+- Open Mode [Exit Intent (desktop) + Delay (mobile)]
     - Delay
     - Exit Intent
     - Exit Intent on Desktop and Delay on Mobile
--  Open Delay: The delay in seconds before the popup is displayed. 
+-  Open Delay [5]: The delay in seconds before the popup is displayed. 
