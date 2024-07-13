@@ -22,3 +22,6 @@ On successful form submission, the cookie lifetime is equal to the session, and 
     - Exit Intent
     - Exit Intent on Desktop and Delay on Mobile
 -  Open Delay [5]: The delay in seconds before the popup is displayed. 
+
+## Demo
+![demo](https://github.com/user-attachments/assets/41532d68-b154-469b-9d99-ff204ec8e925)
