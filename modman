@@ -1,6 +1,6 @@
 app/code/local/MM/ExitPopup     app/code/local/MM/ExitPopup
 app/design/frontend/base/default/layout/mm/exitpopup.xml    app/design/frontend/base/default/layout/mm/exitpopup.xml
-app/design/frontend/base/default/template/mm/exitpopup    app/design/adminhtml/default/default/template/mm/exitpopup
+app/design/frontend/base/default/template/mm/exitpopup    app/design/frontend/default/default/template/mm/exitpopup
 skin/frontend/base/default/css/mm/exitpopup    skin/frontend/base/default/css/mm/exitpopup
 skin/frontend/base/default/js/mm/exitpopup    skin/frontend/base/default/js/mm/exitpopup
 app/etc/modules/*    app/etc/modules/
