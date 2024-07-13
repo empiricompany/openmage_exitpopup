@@ -25,3 +25,5 @@ On successful form submission, the cookie lifetime is equal to the session, and 
 
 ## Demo
 ![demo](https://github.com/user-attachments/assets/41532d68-b154-469b-9d99-ff204ec8e925)
+![settings](https://github.com/user-attachments/assets/2875a6ac-1479-4735-a80d-608b54fb2195)
+
